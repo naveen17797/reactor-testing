@@ -1,6 +1,8 @@
 package org.example;
 
 import reactor.core.publisher.Flux;
+import reactor.core.scheduler.Scheduler;
+import reactor.core.scheduler.Schedulers;
 
 /**
  * Hello world!
@@ -8,6 +10,6 @@ import reactor.core.publisher.Flux;
 public class App {
 
     public static void main(String[] args) {
-        Flux<String> items  = Flux.fromArray(new String[] {"one","two", "three"});
+
     }
 }
